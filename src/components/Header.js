@@ -37,10 +37,10 @@ function Header() {
   };
 
   return (
-    <div className={`header-container ${headerHidden ? 'hidden' : ''}`}>
-      <div className='header-logo p-5 bg-primary flex justify-between px-5 py-1'>
+    <div className={`header-container sm:py-5 ${headerHidden ? 'hidden' : ''}`}>
+      <div className='header-logo p-5 bg-primary flex justify-between px-5 py-1 '>
         <a href="/">
-          <img src={logoImg} alt='Logo' style={{ width: '80px', height: '80px' }} />
+          <img src={logoImg} alt='Logo' style={{ width: '80px', height: '80px' }} className='sm:hidden'/>
         </a>
 
         <div className="header-right flex items-center space-x-5">
