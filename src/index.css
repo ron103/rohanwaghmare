@@ -466,11 +466,11 @@ body {
     font-size: 28px;
   }
   .tag {
-    font-size: 14px; /* Adjust the font size as needed for smaller screens */
+    font-size: 12px; /* Adjust the font size as needed for smaller screens */
   }
   .phrase{
-    font-size: 6px;
-    width:70%;
+    font-size: 4px;
+    width:80%;
     word-wrap: break-word;
   }
   .contact{
