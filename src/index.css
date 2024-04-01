@@ -460,13 +460,13 @@ body {
 /* Define font size for small screens */
 @media screen and (max-width: 1050px) {
   .name{
-    font-size: 32px;
+    font-size: 28px;
   }
   .tag {
     font-size: 14px; /* Adjust the font size as needed for smaller screens */
   }
   .phrase{
-    font-size: 9px;
+    font-size: 6px;
     width:70%;
     word-wrap: break-word;
   }
