@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import LeftSider from './leftSider';
 import RightSider from './rightSider';
+import Skills from './Skills';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <div className='container bg-primary mx-auto w-40% px-40 sm:px-5 py-10'>
             <Intro/>
             <About id="about"/>
+            <Skills />
             <Projects id="projects"/>
             <Extracurricular id="extracurricular"/>
             <Contact id="contact"/>

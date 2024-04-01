@@ -255,7 +255,17 @@ body {
   inset: auto 10px 10px 10px;
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 1050px) { /* Adjusts for devices with width less than 768px */
+  .container {
+    max-width: 95% !important; /* Forces the container to occupy 90% of the screen width */
+  }
+  .intro, .slider { /* Assuming you want these elements to also occupy 90% width */
+    width: 90% !important; /* Adjusts width to 90% for consistency */
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
   .thumbnail{
     justify-content: start;
   }
@@ -460,6 +470,14 @@ body {
     width:70%;
     word-wrap: break-word;
   }
+  .contact{
+    font-size: 9px;
+  }
+
+}
+
+.contact:hover{
+  color: #00e5fe;
 }
 
 .proj-title:hover{
@@ -481,3 +499,4 @@ body {
   align-items: center;
   flex-direction: column;
 }
+

@@ -119,12 +119,17 @@ export const projects = [
     link: "https://github.com/ron103/pune_hpp",
     description: (
       <p>
-        Engineered a high-performance geospatial analytics app with React.js and
-        D3.js for real-time, interactive population mapping. • Backend developed
-        with Node.js and Express.js, using a PostGIS-enabled PostgreSQL DB for
-        precise spatial queries. Integrated with RESTful APIs for data from
-        OpenStreetMap and census databases, achieving 95% accuracy in population
-        density calculations.
+        The Pune House Price Prediction project is a web-based application
+        designed to forecast residential property prices in Pune using machine
+        learning algorithms. It utilizes GridSearchCV for hyperparameter
+        optimization, followed by predictive modeling through Linear Regression,
+        Lasso Regression, and Decision Tree Regressor. The model achieves an
+        accuracy of 85.7%. Users can input parameters such as site location,
+        number of bedrooms and bathrooms, and square footage to receive price
+        predictions. The application's front end is developed with HTML, CSS,
+        and JavaScript, while Flask serves as the backend framework,
+        facilitating interaction between the user interface and the machine
+        learning model.
       </p>
     ),
   },
