@@ -474,6 +474,10 @@ body {
     font-size: 9px;
   }
 
+  .section-title{
+    font-size: 14px;
+  }
+
 }
 
 .contact:hover{
