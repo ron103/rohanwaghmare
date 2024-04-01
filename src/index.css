@@ -258,14 +258,12 @@ body {
 @media screen and (max-width: 1050px) { /* Adjusts for devices with width less than 768px */
   .container {
     max-width: 95% !important; /* Forces the container to occupy 90% of the screen width */
+
   }
   .intro, .slider { /* Assuming you want these elements to also occupy 90% width */
     width: 90% !important; /* Adjusts width to 90% for consistency */
   }
-}
 
-
-@media screen and (max-width: 1050px) {
   .thumbnail{
     justify-content: start;
   }
@@ -279,6 +277,9 @@ body {
     top: 10%;
   }
 }
+
+
+
 
 .header-container {
   position: fixed;
@@ -480,7 +481,7 @@ body {
   .social-cloud-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Creates two columns */
-    gap: 10px; /* Adjust the gap as needed */
+    gap: 20px; /* Adjust the gap as needed */
     justify-items: center;
   }
 
@@ -521,3 +522,25 @@ body {
 
 
 
+@media screen and (max-width: 1050px) {
+  .slider .list .item img {
+    width: 100%; /* Full width of its parent */
+    max-height: 300px; /* Limits the height, adjust based on your need */
+    object-fit: cover; /* Ensures the image covers the area, might crop */
+  }
+
+  .slider .list .item.active {
+    /* Assuming you want the active item to stand out */
+    transform: scale(0.9); /* Slightly smaller */
+
+    box-shadow: 0 0 10px rgba(9, 9, 9, 0.5); /* Soft glow for emphasis */
+  }
+
+  .slider .list .item {
+    display: flex; /* Ensures children (like your image) are flex children */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Prevents image overflow */
+    border-radius: 10px; /* Optional: Adds rounded corners to the container */
+  }
+}
