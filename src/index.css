@@ -469,7 +469,7 @@ body {
     font-size: 12px; /* Adjust the font size as needed for smaller screens */
   }
   .phrase{
-    font-size: 6px;
+    font-size: 8px;
     width:85%;
     word-wrap: break-word;
   }
