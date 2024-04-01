@@ -25,7 +25,7 @@ function Contact() {
           <p className="con-text font-mono text-fifth" style={{ fontSize: '10px', maxWidth: '350px' }}>
             Below are my socials. I will try respond to any query, request, or a friendly hello within 24 hours.
            </p>
-           <div className="cloud-container">
+           <div className="social-cloud-container cloud-container">
               {socials.map((social, index) => (
                 <button className="tech-cloud" key={index}>
                   {social}

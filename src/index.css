@@ -477,9 +477,20 @@ body {
     font-size: 9px;
   }
 
-  .section-title{
-    font-size: 12px;
+  .social-cloud-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 10px; /* Adjust the gap as needed */
+    justify-items: center;
   }
+
+  /* Optional: If you need the .tech-cloud buttons within this container to have specific styles */
+  .social-cloud-container .tech-cloud {
+    width: auto; /* Adjust as necessary */
+    margin: 0; /* Removes any margin */
+  }
+
+
 
 }
 
@@ -506,4 +517,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+
+
 
