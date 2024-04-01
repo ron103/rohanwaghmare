@@ -469,8 +469,8 @@ body {
     font-size: 12px; /* Adjust the font size as needed for smaller screens */
   }
   .phrase{
-    font-size: 4px;
-    width:80%;
+    font-size: 6px;
+    width:85%;
     word-wrap: break-word;
   }
   .contact{
