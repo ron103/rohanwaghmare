@@ -9,7 +9,7 @@ function About() {
 
   return (
     <div>
-      <SectionTitle title="About Me" />
+      <SectionTitle title="About" />
       <div className="flex w-full gap-10 items-center sm:flex-col">
         <div className="about-text flex flex-col gap-5" id="outer-div">
           <p className="text-fourth font-mono">

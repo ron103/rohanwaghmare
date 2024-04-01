@@ -12,7 +12,7 @@ function Contact() {
   ]
   return (
     <div className="contact-page">
-      <SectionTitle title="Get in touch" />
+      <SectionTitle title="Contact" />
       <div className="contact-page-down flex justify-center items-center sm:flex-col">
         <div className="flex flex-col gap-7 justify-center items-center text-center">
           <h1 className="text-fourth text-5xl sm:text-3xl font-bold py-7">
@@ -25,7 +25,7 @@ function Contact() {
           <p className="con-text font-mono text-fifth" style={{ fontSize: '10px', maxWidth: '350px' }}>
             Below are my socials. I will try respond to any query, request, or a friendly hello within 24 hours.
            </p>
-           <div className="cloud-container align-center justify-center">
+           <div className="cloud-container">
               {socials.map((social, index) => (
                 <button className="tech-cloud" key={index}>
                   {social}

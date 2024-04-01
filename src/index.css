@@ -459,6 +459,9 @@ body {
 
 /* Define font size for small screens */
 @media screen and (max-width: 1050px) {
+  .intro{
+    padding-left: 10%;
+  }
   .name{
     font-size: 28px;
   }
@@ -475,7 +478,7 @@ body {
   }
 
   .section-title{
-    font-size: 14px;
+    font-size: 12px;
   }
 
 }
