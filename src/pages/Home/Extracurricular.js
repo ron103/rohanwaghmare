@@ -74,34 +74,34 @@ thumbnails.forEach((thumbnail,index)=>{
     <div className="slider">
       <div className="list">
         <div className="item active">
-          <img src={i1} style={{borderRadius:'5%'}}/>
+          <img src={i1} />
 
           <div className="content">
-            <p style={{fontSize:'25px', color:"white" }}>Reading</p>
+            <p style={{fontSize:'20px', color:"white" }}>Reading</p>
           </div>
           </div>
           <div className="item">
-          <img src={i2} style={{borderRadius:'5%'}}/>
+          <img src={i2} />
           <div className="content">
-            <p style={{fontSize:'25px', color:"white" }}>Weightlifting</p>
+            <p style={{fontSize:'20px', color:"white" }}>Weightlifting</p>
           </div>
           </div>
           <div className="item">
-          <img src={i3} style={{borderRadius:'5%'}}/>
+          <img src={i3} />
           <div className="content">
-            <p style={{fontSize:'25px', color:"white" }}>State Level Soccer player</p>
+            <p style={{fontSize:'20px', color:"white" }}>State Level Soccer player</p>
           </div>
           </div>
           <div className="item">
-          <img src={i4} style={{borderRadius:'5%'}}/>
+          <img src={i4} />
           <div className="content">
-            <p style={{fontSize:'25px', color:"white" }}>Travel Fanatic</p>
+            <p style={{fontSize:'20px', color:"white" }}>Travel Fanatic</p>
           </div>
           </div>
           <div className="item">
-          <img src={i5} style={{borderRadius:'5%'}}/>
+          <img src={i5} />
           <div className="content">
-            <p style={{fontSize:'25px', color:"white" }}>Motorcycle Enthusiast</p>
+            <p style={{fontSize:'20px', color:"white" }}>Motorcycle Enthusiast</p>
           </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import ResumePDF from "../../components/logos/RWresume-data.pdf";
-import moon from "../../components/logos/moonvector.png";
+import ResumePDF from "../../components/logos/sde_rw2.pdf";
+
 
 function Intro() {
   const handleDownload = () => {

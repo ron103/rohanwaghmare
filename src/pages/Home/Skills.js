@@ -3,10 +3,10 @@ import SectionTitle from "../../components/SectionTitle";
 
 const SkillCloud = ({ skills, title }) => (
     <>
-      <h1 className="text-fourth font-mono mt-5">{title}</h1>
-      <div className="cloud-container flex flex-wrap gap-5 mt-5">
+      <h1 className="text-fourth text-bold mt-5">{title}</h1>
+      <div className="cloud-container-skill flex flex-wrap gap-5 mt-5">
         {skills.map((skill, index) => (
-          <div key={index} className="tech-cloud">
+          <div key={index} className="tech-cloud-skill">
             {" "}
             {/* Ensure unique key */}
             <h1 className="font-mono">{skill}</h1>
