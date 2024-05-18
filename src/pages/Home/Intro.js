@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "../../components/logos/sde_rw2.pdf";
+import ResumePDF from "../../components/logos/sde4.pdf";
 
 
 function Intro() {

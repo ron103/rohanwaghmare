@@ -17,8 +17,8 @@ function LeftSider() {
       
   return (
     <div className="fixed left-0 bottom-0 px-10 sm:static">
-      <div className="flex flex-col items-center gap-5 ">
-        <div className="flex flex-col gap-3 sm:flex-row" >
+      <div className="ls-div flex flex-col gap-5">
+        <div className="flex flex-col items-center gap-3 sm:flex-row" >
           <div onClick={openEmail}><i class="icons ri-mail-fill text-gray-600 text-xl" /></div>
           <a href="https://www.instagram.com/rohannwaghmare">
           <i class="icons ri-instagram-line text-gray-600 text-xl"></i></a>
@@ -27,7 +27,7 @@ function LeftSider() {
           <a href="https://www.linkedin.com/in/rohanwaghmare">
           <i class="icons ri-linkedin-box-fill text-gray-600 text-xl"></i></a>
         
-        <div className="w-[1px] h-40 bg-[#242b3d] sm:hidden"></div>
+        <div className="ls-line w-[1px] h-40 bg-[#242b3d] sm:hidden"></div>
         </div>
       </div>
     </div>

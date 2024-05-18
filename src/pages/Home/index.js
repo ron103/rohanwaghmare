@@ -9,6 +9,7 @@ import Footer from './Footer';
 import LeftSider from './leftSider';
 import RightSider from './rightSider';
 import Skills from './Skills';
+import Certifications from './Certifications';
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
             <About id="about"/>
             <Skills />
             <Projects id="projects"/>
+            <Certifications />
             <Extracurricular id="extracurricular"/>
             <Contact id="contact"/>
             <Footer/>

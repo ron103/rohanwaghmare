@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom'; // You might not need this for internal links anymore
 import { scroller } from 'react-scroll'; // Import scroller from react-scroll
 import logoImg from './logos/rolo.png';
+
 
 function Header() {
   const [lastScrollTop, setLastScrollTop] = useState(0);
