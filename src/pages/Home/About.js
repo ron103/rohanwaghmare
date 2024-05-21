@@ -59,7 +59,7 @@ function About() {
           <img
             src={pic1}
             alt="Rohan's Portrait"
-            className="rounded-full" // Adjust your CSS for these classes
+            className="rounded-full" 
             style={{
               minWidth: "100px",
               minHeight: "100px",
