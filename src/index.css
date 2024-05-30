@@ -413,8 +413,9 @@ body {
   font-family: monospace;
   font-weight: 500;
 }
-.about-text-3 p{
+.about-text-3{
   font-weight: 300;
+  margin-top: 1px;
 
 }
 .about-text-2 p:hover{
@@ -707,11 +708,7 @@ input, textarea{
 
 }
 
-.email-form-main{
 
-  margin: 1vh;
-  background-color: #0f1118;
-}
 
 .send-button{
   margin-left: 80px;
