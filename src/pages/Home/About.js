@@ -35,7 +35,7 @@ function About() {
           <p className="text-fourth font-mono">
             <i className="ri-play-line"></i>
             Hey there! I'm{" "}
-            <span className="text-highlight font-mono">
+            <span className="text-highlight-main font-mono">
               Rohan, <button onClick={togglePlayPause}>Mozart of computers.</button>
             </span>
             {" "}I build multi-functional softwares that work like symphony.
@@ -123,8 +123,8 @@ function About() {
         </div>
       </div>
       {showAlert && (
-        <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 font-mono bg-primary text-fifth px-4 py-2 rounded-md" style={{fontSize:'20px'}}>
-          <button onClick={togglePlayPause}><i className="ri-play-line" />Pause Music</button>
+        <div className=" fixed bottom-10 left-1/2 transform -translate-x-1/2 font-mono padding-1vh margin-1vh bg-primary text-fifth px-4 py-2 rounded-md" style={{fontSize:'20px'}}>
+          <button className="music-alert" onClick={togglePlayPause}><i className="ri-play-line" />Pause Music</button>
         </div>
       )}
     </div>

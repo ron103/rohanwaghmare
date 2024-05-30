@@ -411,9 +411,12 @@ body {
 .about-text-2 p{
   margin-left: 20px; 
   font-family: monospace;
-  font-weight: 300;
+  font-weight: 500;
 }
+.about-text-3 p{
+  font-weight: 300;
 
+}
 .about-text-2 p:hover{
   color: #00e5fe;
 }
@@ -475,6 +478,15 @@ body {
   cursor: pointer;
   color: #00e5fe;
 }
+#outer-div:hover .text-highlight-main{
+  cursor: pointer;
+  color: #00e5fe;
+  
+}
+.text-highlight-main:hover{
+  font-weight: bolder;
+}
+
 
 
 /* Define font size for small screens */
@@ -483,7 +495,7 @@ body {
     padding-left: 10%;
   }
   .name{
-    font-size: 28px;
+    font-size: 26px;
   }
   .tag {
     font-size: 12px; /* Adjust the font size as needed for smaller screens */
@@ -510,7 +522,16 @@ body {
     margin: 0; /* Removes any margin */
   }
 
+.music-alert{
+  border: solid white 1px;
+  z-index: 10000;
+  padding: 1vh;
+  margin: 1vh;
+}
 
+.music-alert:hover{
+  color: #00e5fe;
+}
 
 
 }
