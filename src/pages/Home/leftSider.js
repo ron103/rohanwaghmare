@@ -16,9 +16,9 @@ function LeftSider() {
 
       
   return (
-    <div className="fixed left-0 bottom-0 px-10 sm:static">
-      <div className="ls-div flex flex-col gap-5">
-        <div className="flex flex-col items-center gap-3 sm:flex-row" >
+    <div className="lfsider fixed left-0 bottom-0 px-10 sm:static">
+      <div className="flex flex-col gap-5">
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row" >
           <div onClick={openEmail}><i class="icons ri-mail-fill text-gray-600 text-xl" /></div>
           <a href="https://www.instagram.com/rohannwaghmare">
           <i class="icons ri-instagram-line text-gray-600 text-xl"></i></a>

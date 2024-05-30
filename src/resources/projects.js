@@ -1,3 +1,8 @@
+import wallet from '../components/logos/walletio.png'
+import tuberculosis from '../components/logos/tuberculosis.png'
+import lstm from '../components/logos/lstm.png'
+
+
 export const projects = [
   {
     id: "630120134042e2d798b59dc4",
@@ -16,7 +21,7 @@ export const projects = [
       "Tailwind CSS",
     ],
     image:
-      "https://i.pinimg.com/736x/61/7b/5c/617b5c772b91ddad905cc28b372b739e.jpg",
+      wallet,
     link: "https://wallet-io.vercel.app",
     description: (
       <p>
@@ -38,7 +43,7 @@ export const projects = [
     period: "Jan 2022 - Jun 2022",
     technologies: ["LSTM", "OpenCV", "Deep Learning"],
     image:
-      "https://i.pinimg.com/564x/5c/37/ab/5c37ab900875f3102b51c3f953fa7151.jpg",
+      lstm,
     link: "https://github.com/ron103/sign_language_translator",
     description: (
       <p>
@@ -65,7 +70,7 @@ export const projects = [
       "TBX11K",
     ],
     image:
-      "https://i.pinimg.com/564x/d6/ed/1f/d6ed1f1a0d13b4e6ff02b9d7d85e6692.jpg",
+      tuberculosis,
     link: "https://github.com/ron103/Detection-of-Tuberculosis-using-Transfer-Learning",
     description: (
       <p>

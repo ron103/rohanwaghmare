@@ -34,13 +34,15 @@ function Intro() {
           provide the most efficient solutions to any given complex problem.
         </p>
       </div>
-
+      <div className="flex gap-5">
       <button
         onClick={handleDownload}
         className="border-[1px] mt-5 text-sm sm:text-sm font-mono border-secondary text-secondary px-10 py-2 rounded resume-button"
       >
         Resume / CV
       </button>
+
+      </div>
     </div>
   );
 }
