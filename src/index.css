@@ -486,7 +486,18 @@ body {
 .text-highlight-main:hover{
   font-weight: bolder;
 }
+.music-alert-main{
+  border: solid 1px #00e5fe;
+}
+.music-alert{
+  z-index: 1000;
+  margin-left: 20px;
 
+}
+
+.music-alert:hover{
+  color: #00e5fe;
+}
 
 
 /* Define font size for small screens */
@@ -522,16 +533,7 @@ body {
     margin: 0; /* Removes any margin */
   }
 
-.music-alert{
-  border: solid white 1px;
-  z-index: 10000;
-  padding: 1vh;
-  margin: 1vh;
-}
 
-.music-alert:hover{
-  color: #00e5fe;
-}
 
 
 }
