@@ -123,7 +123,7 @@ function About() {
         </div>
       </div>
       {showAlert && (
-        <div className="music-alert-main fixed bottom-10 left-1/2 transform -translate-x-1/2 font-mono padding-1vh margin-1vh bg-primary text-fifth px-4 py-2 rounded-md" style={{fontSize:'20px'}}>
+        <div className="music-alert-main fixed bottom-10 left-1/2 transform -translate-x-1/2 font-mono padding-1vh margin-1vh bg-primary text-fifth px-4 py-2 rounded-md" style={{fontSize:'10px'}}>
           <button className="music-alert" onClick={togglePlayPause}><i className="ri-play-line" />Pause Music</button>
         </div>
       )}
