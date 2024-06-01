@@ -44,7 +44,6 @@ function Intro() {
       
 
       </div>
-      <p className="text-fifth font-mono" style={{fontSize:'5px', fontWeight:'lighter'}}>(Try clicking on some highlighted texts)</p>
       </div>
 
     </div>
