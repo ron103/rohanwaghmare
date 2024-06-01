@@ -76,16 +76,13 @@ function About() {
             </span>
           </p>
           <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>
-            I have always been a {" "}
-            <span className="text-highlight font-mono">
-            problem solver. 
-            </span>{" "}
-            Engineering has been on my mind from the day I started playing with{" "}
-            <span className="text-highlight font-mono">
-              Legos.
-            </span>{" "}
-          </p>
+  <i className="ri-play-line"></i>
+  I've always been a {" "}
+  <span className="text-highlight font-mono">problem solver</span>, 
+  with engineering capturing my imagination from the moment I started playing with 
+  <span className="text-highlight font-mono">{' '}Legos</span>.
+</p>
+
           <p className="text-fourth font-mono">
             <i className="ri-play-line"></i>
             I find it truly satisfying to engage my brain in engineering 
