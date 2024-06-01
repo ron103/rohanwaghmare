@@ -6,8 +6,11 @@ function Projects() {
   const [selectedItemindex, setSelectedItemIndex] = React.useState(0);
   const technologies = projects[selectedItemindex].technologies || [];
   return (
+    <section id="projects">
     <div >
       <SectionTitle title="Projects" />
+      <p className="hidden sm:block text-secondary font-mono" style={{ fontSize: '10px' }}>Scroll to right --></p>
+
       <div className="flex py-10 gap-10 sm:flex-col align-center justify-center">
         <div className=" flex flex-col w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
           {projects.map((project, index) => (
@@ -60,6 +63,7 @@ function Projects() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

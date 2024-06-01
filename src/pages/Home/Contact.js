@@ -41,6 +41,7 @@ function Contact() {
  
 
   return (
+    <section id="contact">
     <div className="contact-page">
       <SectionTitle title="Contact" />
       <div className="contact-page-down flex sm:flex-col">
@@ -80,6 +81,7 @@ function Contact() {
             
 
       </div>
+      </section>
   );
 }
 

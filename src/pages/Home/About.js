@@ -28,6 +28,7 @@ function About() {
   };
 
   return (
+    <section id="about">
     <div>
       <SectionTitle title="About" />
       <div className="flex w-full gap-10 items-center sm:flex-col">
@@ -128,6 +129,7 @@ function About() {
         </div>
       )}
     </div>
+    </section>
   );
 }
 

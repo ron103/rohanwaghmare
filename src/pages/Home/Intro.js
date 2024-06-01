@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "../../components/logos/gen_resume.pdf";
+import ResumePDF from "../../components/logos/main_resume.pdf";
 
 
 function Intro() {
@@ -28,21 +28,24 @@ function Intro() {
           Persistence. Perseverance. Proficiency.
         </h1>
 
-        <p className="phrase text-fifth opacity-50 lg:text-sm font-mono w-[70%]">
+        <p className="phrase text-fifth opacity-50 lg:text-sm font-mono w-[60%]">
           I'm a technology enthusiast with a knack for developing projects that
           solve a problem. Passionate about learning and excelling, I seek to
           provide the most efficient solutions to any given complex problem.
         </p>
-      </div>
-      <div className="flex gap-5">
+        <div className="flex gap-5">
       <button
         onClick={handleDownload}
         className="border-[1px] mt-5 text-sm sm:text-sm font-mono border-secondary text-secondary px-10 py-2 rounded resume-button"
       >
         Resume / CV
       </button>
+      
 
       </div>
+      <p className="text-fifth font-mono" style={{fontSize:'5px', fontWeight:'lighter'}}>(Try clicking on some highlighted texts)</p>
+      </div>
+
     </div>
   );
 }

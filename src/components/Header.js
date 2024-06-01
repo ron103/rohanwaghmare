@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { scroller } from 'react-scroll'; // Import scroller from react-scroll
 import logoImg from './logos/rolo.png';
+import {HashLink as Link} from 'react-router-hash-link';
 
 
 
@@ -28,16 +29,11 @@ function Header() {
     };
   }, [lastScrollTop]);
 
-  // Function to handle the smooth scroll
-  const scrollToSection = (section) => {
-    scroller.scrollTo(section, {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart',
-    });
-  };
+ 
+
 
   return (
+
     <div className={`header-container sm:py-5 ${headerHidden ? 'hidden' : ''}`}>
       <div className='header-logo p-5 bg-primary flex justify-between px-5 py-1 '>
         <a href="/">
@@ -45,13 +41,29 @@ function Header() {
         </a>
 
         <div className="header-right flex items-center space-x-5">
-        <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className="t1">About</a>
-        <a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }} className="t1">Projects</a>
-        <a href="#extracurricular" onClick={(e) => { e.preventDefault(); scrollToSection('extracurricular'); }} className="t1">Extracurricular</a>
-          <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className="t1">Contact</a>
+        <Link to='#about' smooth>
+          About
+        </Link>
+        <Link className='sm:hidden' to='#skills' smooth>
+          Skills
+        </Link>
+        <Link to='#projects' smooth>
+          Projects
+        </Link>
+        <Link className='sm:hidden' to='#certifications' smooth>
+          Certifications
+        </Link>
+        <Link to='#extracurricular' smooth>
+          Extracurricular
+        </Link>
+        
+        <Link to='#contact' smooth>
+          Contact
+        </Link>
         </div>
       </div>
     </div>
+
   );
 }
 

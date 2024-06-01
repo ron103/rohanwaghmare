@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import SectionTitle from "../../components/SectionTitle";
 import i1 from "../../components/logos/read.jpg";
 import i2 from "../../components/logos/gym1.jpg";
@@ -66,6 +66,7 @@ thumbnails.forEach((thumbnail,index)=>{
 },[]);
 
   return (
+    <section id="extracurricular">
     <div>
         <SectionTitle title='Extracurricular'/>
         <div className="font-sem-bold text-fourth font-mono mb-10">
@@ -74,32 +75,32 @@ thumbnails.forEach((thumbnail,index)=>{
     <div className="slider">
       <div className="list">
         <div className="item active">
-          <img src={i1} />
+          <img src={i1} alt='img'/>
 
           <div className="content">
             <p style={{fontSize:'20px', color:"white" }}>Reading</p>
           </div>
           </div>
           <div className="item">
-          <img src={i2} />
+          <img src={i2} alt='img'/>
           <div className="content">
             <p style={{fontSize:'20px', color:"white" }}>Weightlifting</p>
           </div>
           </div>
           <div className="item">
-          <img src={i3} />
+          <img src={i3} alt='img'/>
           <div className="content">
             <p style={{fontSize:'20px', color:"white" }}>State Level Soccer player</p>
           </div>
           </div>
           <div className="item">
-          <img src={i4} />
+          <img src={i4} alt='img'/>
           <div className="content">
             <p style={{fontSize:'20px', color:"white" }}>Travel Fanatic</p>
           </div>
           </div>
           <div className="item">
-          <img src={i5} />
+          <img src={i5} alt='img'/>
           <div className="content">
             <p style={{fontSize:'20px', color:"white" }}>Motorcycle Enthusiast</p>
           </div>
@@ -111,31 +112,31 @@ thumbnails.forEach((thumbnail,index)=>{
         </div>
         <div className="thumbnail">
           <div className="item active">
-          <img src = {i1}></img>
+          <img src = {i1} alt='img'></img>
           <div className="content text-white text-center text-sm text-bold">
             Reading
           </div>
           </div>
           <div className="item">
-          <img src = {i2}></img>
+          <img src = {i2} alt='img'></img>
           <div className="content text-white text-center text-sm text-bold">
             Gym
           </div>
           </div>
           <div className="item">
-          <img src = {i3}></img>
+          <img src = {i3} alt='img'></img>
           <div className="content text-white text-center text-sm text-bold">
             Soccer
           </div>
           </div>
           <div className="item">
-          <img src = {i4}></img>
+          <img src = {i4} alt='img'></img>
           <div className="content text-white text-center text-sm text-bold">
             Travelling
           </div>
           </div>
           <div className="item">
-          <img src = {i5}></img>
+          <img src = {i5} alt='img'></img>
           <div className="content text-white text-center text-sm text-bold">
             Motorcycle
           </div>
@@ -143,6 +144,7 @@ thumbnails.forEach((thumbnail,index)=>{
         </div>
         </div>
       </div>
+      </section>
   )
 }
 export default Extracurricular;

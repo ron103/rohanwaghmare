@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "../../components/SectionTitle";
-import pic1 from "../../components/logos/ro3.jpeg";
+
 
 
 
@@ -8,6 +8,7 @@ function Certifications() {
 
 
   return (
+    <section id="certifications">
     <div>
       <SectionTitle title="Certifications & Publications" />
       <div className="flex w-full gap-10 items-center sm:flex-col">
@@ -80,6 +81,7 @@ Remote Sensing and Medical Applications (ARSAMA), Mar 2023</p>
         </div>
       </div>
     </div>
+    </section>
   );
 }
 export default Certifications;

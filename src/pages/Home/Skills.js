@@ -65,6 +65,7 @@ function Skills() {
       "DevOps",
     ];
   return (
+    <section id='skills'>
     <div>
         <SectionTitle title="Skills"></SectionTitle>
     <SkillCloud
@@ -76,6 +77,7 @@ function Skills() {
   <SkillCloud title="Tools & Databases I implement" skills={tools} />
   <SkillCloud title="Skills I have" skills={skills} />
 </div>
+</section>
   )
 }
 
