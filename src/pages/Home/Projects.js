@@ -9,7 +9,7 @@ function Projects() {
     <section id="projects">
     <div >
       <SectionTitle title="Projects" />
-      <p className="hidden sm:block text-secondary font-mono" style={{ fontSize: '10px' }}>Scroll to right --></p>
+      <p className="hidden sm:block text-fifth font-mono" style={{ fontSize: '8px', opacity:'50%' }}>Personal projects with active link or github link with tech stack and description. Scroll right to explore!</p>
 
       <div className="flex py-10 gap-10 sm:flex-col align-center justify-center">
         <div className=" flex flex-col w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">

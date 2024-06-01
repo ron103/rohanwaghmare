@@ -36,9 +36,9 @@ function Header() {
 
     <div className={`header-container sm:py-5 ${headerHidden ? 'hidden' : ''}`}>
       <div className='header-logo p-5 bg-primary flex justify-between px-5 py-1 '>
-        <a href="/">
+        <Link to='#intro' smooth>
           <img src={logoImg} alt='Logo' style={{ width: '80px', height: '80px' }} className='sm:hidden'/>
-        </a>
+          </Link>
 
         <div className="header-right flex items-center space-x-5">
         <Link to='#about' smooth>

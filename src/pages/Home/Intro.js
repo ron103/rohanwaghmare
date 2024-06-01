@@ -19,6 +19,7 @@ function Intro() {
     document.body.removeChild(link);
   };
   return (
+    <section id="intro">
     <div className="intro bg-primary flex flex-col items-center justify-center text-center relative">
       <div className="h-[40vh] flex flex-col items-center justify-center gap-5 py-10 relative z-1">
         <h1 className="name text-7xl lg:text-8xl text-fourth font-bold">
@@ -47,6 +48,7 @@ function Intro() {
       </div>
 
     </div>
+    </section>
   );
 }
 
