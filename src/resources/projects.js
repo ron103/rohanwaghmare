@@ -1,7 +1,7 @@
 import wallet from '../components/logos/walletio.png'
 import tuberculosis from '../components/logos/tuberculosis.png'
 import lstm from '../components/logos/lstm.png'
-import IntelliPDF from '../components/logos/Intellipdf.png'
+import IntelliPDF from '../components/logos/intellipdf.png'
 import globe from '../components/logos/globe.png'
 
 export const projects = [
