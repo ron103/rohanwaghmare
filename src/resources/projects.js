@@ -1,7 +1,8 @@
 import wallet from '../components/logos/walletio.png'
 import tuberculosis from '../components/logos/tuberculosis.png'
 import lstm from '../components/logos/lstm.png'
-
+import IntelliPDF from '../components/logos/Intellipdf.png'
+import globe from '../components/logos/globe.png'
 
 export const projects = [
   {
@@ -32,6 +33,39 @@ export const projects = [
         architecture using Node.js and Express.js with MongoDB as the database
         solution and leveraged machine learning (linear regression) predicting a
         12% annual growth for the company.
+      </p>
+    ),
+  },
+  {
+    _id: "630120134842e2d798b59dd1",
+    company: "Research Project",
+    title: "IntelliPDF",
+    period: "Aug 2022 - May 2023",
+    technologies: ["Python", "Langchain", "Streamlit", "OpenAI API"],
+    image:
+    IntelliPDF,
+    link: "https://intellipdf.streamlit.app",
+    description: (
+      <p>
+        Created an application enabling interactive queries on PDF documents. Extracted over 10,000 tokens using
+Langchain, with responses powered by OpenAI API. Implemented in Python with a Streamlit interface, providing a 95.3% accuracy rate in user query responses.
+      </p>
+    ),
+  },
+  {
+    _id: "630120134842e2d798b59dd2",
+    company: "Research Project",
+    title: "Population Density Counter",
+    period: "Aug 2022 - May 2023",
+    technologies: ["React.js", "OpenStreetMap API", "Leaflet.js", "Material UI"],
+    image:
+      globe,
+    link: "https://globe-apps.vercel.app",
+    description: (
+      <p>
+        Engineered an advanced interactive geospatial application featuring population visualization within a selected
+circle, dynamic country coloring, and calculation of world travel coverage percentage, utilizing React.js and Leaflet.js with Node.js and Express.js as backend, using RESTful APIs for data from OpenStreetMap and census databases, achieving 92.5% accuracy in population density calculations.
+
       </p>
     ),
   },
@@ -179,45 +213,6 @@ export const projects = [
         downtime management through real-time monitoring, coupled with Docker
         and Jenkins to halve deployment times and ensure environment
         consistency.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dd1",
-    company: "Research Project",
-    title: "IntelliPDF",
-    period: "Aug 2022 - May 2023",
-    technologies: ["NLP", "REST API", "OCR", "Node.js", "React.js", "Docker"],
-    image:
-      "https://i.pinimg.com/564x/28/57/b8/2857b8a2fc0f7eec72f395735a80fdc2.jpg",
-    link: "",
-    description: (
-      <p>
-        Crafted a Chrome extension integrating ChatGPT's NLP prowess and OCR
-        technology, revolutionizing PDF interaction by offering instant,
-        context-aware text explanations with a 34% improvement in comprehension
-        efficiency. This synergy enables precise content analysis and
-        interactive learning directly within the browser.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dd2",
-    company: "Research Project",
-    title: "Population Density Counter",
-    period: "Aug 2022 - May 2023",
-    technologies: ["React.js", "D3.js", "PostGIS", "PostgreSQL", "REST API"],
-    image:
-      "https://i.pinimg.com/564x/a5/a9/93/a5a99372695b9b5633b6c2cf065a2637.jpg",
-    link: "",
-    description: (
-      <p>
-        Engineered a high-performance geospatial analytics app with React.js and
-        D3.js for real-time, interactive population mapping. Backend developed
-        with Node.js and Express.js, using a PostGIS-enabled PostgreSQL DB for
-        precise spatial queries. Integrated with RESTful APIs for data from
-        OpenStreetMap and census databases, achieving 95% accuracy in population
-        density calculations.
       </p>
     ),
   },
