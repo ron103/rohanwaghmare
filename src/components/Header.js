@@ -41,23 +41,23 @@ function Header() {
           </Link>
 
         <div className="header-right flex items-center space-x-5">
-        <Link to='#about' smooth>
+        <Link to='#about' className='header-right-btn' smooth>
           About
         </Link>
-        <Link className='sm:hidden' to='#skills' smooth>
+        <Link className='sm:hidden' to='#skills' className='header-right-btn' smooth>
           Skills
         </Link>
-        <Link to='#projects' smooth>
+        <Link to='#projects' className='header-right-btn' smooth>
           Projects
         </Link>
-        <Link className='sm:hidden' to='#certifications' smooth>
+        <Link className='sm:hidden' to='#certifications' className='header-right-btn' smooth>
           Certifications
         </Link>
-        <Link to='#extracurricular' smooth>
+        <Link to='#extracurricular' className='header-right-btn' smooth>
           Extracurricular
         </Link>
         
-        <Link to='#contact' smooth>
+        <Link to='#contact' className='header-right-btn' smooth>
           Contact
         </Link>
         </div>
