@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "../../components/logos/main_resume.pdf";
+import ResumePDF from "../../components/logos/rohan-waghmare-resume.pdf";
 
 
 function Intro() {
