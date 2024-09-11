@@ -10,6 +10,7 @@ import LeftSider from './leftSider';
 import RightSider from './rightSider';
 import Skills from './Skills';
 import Certifications from './Certifications';
+import Work from './Work';
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
             <Intro/>
             <About id="about"/>
             <Skills />
+            <Work/>
             <Projects id="projects"/>
             <Certifications />
             <Extracurricular id="extracurricular"/>

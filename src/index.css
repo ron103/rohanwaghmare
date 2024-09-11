@@ -344,6 +344,11 @@ body {
   color: #00e5fe
 }
 
+.company:hover{
+  cursor: pointer;
+  color: #00e5fe;
+}
+
 .t1:hover{
   cursor: pointer;
   color: #00e5fe;

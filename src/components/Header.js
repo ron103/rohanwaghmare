@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { scroller } from 'react-scroll'; // Import scroller from react-scroll
 import logoImg from './logos/rolo.png';
 import {HashLink as Link} from 'react-router-hash-link';
 
@@ -44,13 +43,16 @@ function Header() {
         <Link to='#about' className='header-right-btn' smooth>
           About
         </Link>
-        <Link className='sm:hidden' to='#skills' className='header-right-btn' smooth>
+        <Link className='header-right-btn sm:hidden' to='#skills' smooth>
           Skills
+        </Link>
+        <Link to='#work' className='header-right-btn' smooth>
+          Work
         </Link>
         <Link to='#projects' className='header-right-btn' smooth>
           Projects
         </Link>
-        <Link className='sm:hidden' to='#certifications' className='header-right-btn' smooth>
+        <Link className='header-right-btn sm:hidden ' to='#certifications'  smooth>
           Certifications
         </Link>
         <Link to='#extracurricular' className='header-right-btn' smooth>
