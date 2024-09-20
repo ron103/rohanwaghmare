@@ -15,6 +15,13 @@ function Certifications() {
         
         <div className="about-text-2 flex flex-col gap-5" id="outer-div">
         <h1 className="section-title text-xl text-fourth ">Certifications</h1>
+        <p className="text-fifth">
+            <i class="ri-play-line"></i>
+            <a href="https://www.credly.com/badges/5151c673-6042-4ead-bd9d-5ff8c2eb05fb/public_url">
+        AWS Certified Cloud Practioner
+        <p className="about-text-3">AWS, Sep 2024</p>
+        </a>
+          </p>
           <p className="text-fifth">
             <i class="ri-play-line"></i>
             <a href="https://www.udemy.com/certificate/UC-ad27cfcc-e9cc-4792-abc0-069fca1b4ba6/">
