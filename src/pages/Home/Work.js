@@ -10,9 +10,9 @@ function Work() {
       <SectionTitle title="Work Experience" />
 
       <div className="flex py-10 gap-10 sm:flex-col align-center justify-center">
-        <div className=" flex flex-col gap-10 sm:flex-row sm:overflow-x-scroll sm:w-full">
+        <div className=" flex flex-col gap-10">
         {work.map((project,index)=>(
-                    <div className="flex flex-col gap-10 sm:flex-col">
+                    <div className="flex flex-col gap-10">
         
                     <div className="relative">
                         <img
