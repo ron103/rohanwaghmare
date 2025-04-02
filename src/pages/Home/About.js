@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../components/SectionTitle";
-import pic1 from "../../components/logos/ro3.jpeg";
+import pic1 from "../../components/logos/dp-pf-illus.png";
 import mozart from '../../components/logos/mozart.mp3';
 
 function About() {
@@ -26,106 +26,61 @@ function About() {
   const togglePlayPause = () => {
     setIsPlaying(prevState => !prevState);
   };
-
   return (
     <section id="about">
-    <div>
-      <SectionTitle title="About" />
-      <div className="flex w-full gap-10 items-center sm:flex-col">
-        <div className="about-text flex flex-col gap-5" id="outer-div">
-          <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>
-            Hey there! I'm{" "}
-            <span className="text-highlight-main font-mono">
-              Rohan, <button onClick={togglePlayPause}>Mozart of computers.</button>
-            </span>
-            {" "}I build multi-functional softwares that work like symphony.
-          </p>
-          <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>I'm from{" "}
-            <a href="https://www.google.com/maps/place/Pune,+Maharashtra,+India/@18.524545,73.6981493,11z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!8m2!3d18.5204303!4d73.8567437!16zL20vMDE1eTJx?entry=ttu">
-              <span className="text-highlight font-mono">Pune, India,</span>
-            </a>{" "}
-            where I earned my Bachelor's degree in Computer Science from{" "}
-            <a href="https://mituniversity.ac.in/">
-              <span className="text-highlight font-mono">
-                MIT ADT University.
-              </span>
-            </a>
-          </p>
-         
-          <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>
-            I am a Master's student studying
-            Computer Science at{" "}
-            <a href="https://www.binghamton.edu/">
-              <span className="text-highlight font-mono">
-                Binghamton University, NY.
-              </span>
-            </a>
-          </p>
-          <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>
-            I have explored diverse realms of computer science, but the ones that truly captivated me were{" "}
-            <span className="text-highlight font-mono">
-              machine learning
-            </span>{" "}
-            and{" "}
-            <span className="text-highlight font-mono">
-              software development.
-            </span>
-          </p>
-          <p className="text-fourth font-mono">
-  <i className="ri-play-line"></i>
-  I've always been a {" "}
-  <span className="text-highlight font-mono">problem solver</span>, 
-  with engineering capturing my imagination from the moment I started playing with 
-  <span className="text-highlight font-mono">{' '}Legos</span>.
+      <div>
+        <SectionTitle title="About" />
+        <div className="flex w-full gap-10 items-center sm:flex-col">
+          <div className="about-text flex flex-col gap-5" id="outer-div">
+            <p className="text-fourth font-mono">
+              <i className="ri-play-line"></i>
+              Hey! I’m{" "}
+              <span className="text-highlight-main font-mono">
+                Rohan, <button onClick={togglePlayPause}>Mozart of computers </button>
+               </span>
+               — currently building as a Software Engineering Apprentice at Michigan Health Information Network. I’ve previously engineered impactful solutions at{" "}
+              <span className="text-highlight font-mono">Binghamton Tech Collective</span> and{" "}
+              <span className="text-highlight font-mono">Flow</span>, where I worked with{" "}
+              <span className="text-highlight font-mono">React</span>,{" "}
+              <span className="text-highlight font-mono">Django</span>, and{" "}
+              <span className="text-highlight font-mono">Swift</span>. I hold a Bachelor's in CS from{" "}
+              <a href="https://mituniversity.ac.in/"><span className="text-highlight font-mono">MIT ADT University</span></a>{" "}
+              and am currently pursuing my Master’s at{" "}
+              <a href="https://www.binghamton.edu/"><span className="text-highlight font-mono">Binghamton University, NY</span></a>. 
+              As an{" "}
+              <span className="text-highlight font-mono">AWS Certified Developer</span> and{" "}
+              <a href="https://ieeexplore.ieee.org/document/10112352" target="_blank" rel="noreferrer">
+                <span className="text-highlight font-mono">IEEE-published researcher</span>
+              </a>, I love building smart systems with{" "}
+              <span className="text-highlight font-mono">Python</span>,{" "}
+              <span className="text-highlight font-mono">AWS</span>, and{" "}
+              <span className="text-highlight font-mono">React</span>.
+              <br /><br />
+  If you're looking for someone who codes like a composer and thinks like an architect... well, you're already reading this. Coincidence? Probably not.
 </p>
-
-          <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>
-            I find it truly satisfying to engage my brain in engineering 
-            {" "}
-            <span className="text-highlight font-mono">
-            high-tech products
-            </span>{" "}
-             and <span className="text-highlight font-mono">
-            resolving complex errors.
-            </span>{" "}
-          </p>
-          <p className="text-fourth font-mono">
-            <i className="ri-play-line"></i>
-            Broadening my {" "}
-             <span className="text-highlight font-mono">
-             technological horizons
-            </span>{" "} by learning new tech while keeping the 
-            {" "}
-             <span className="text-highlight font-mono">
-             mastery
-            </span>{" "} of the things I already know is something I do on a daily basis.{" "}
-          </p>
+          </div>
+          <div className="about-me rounded-full border border-fourth">
+            <img
+              src={pic1}
+              alt="Rohan's Portrait"
+              className="rounded-full"
+              style={{
+                minWidth: "100px",
+                minHeight: "100px",
+                maxWidth: "300px",
+                maxHeight: "300px",
+              }}
+            />
+          </div>
         </div>
-        <div className="about-me rounded-full border border-fourth">
-          <img
-            src={pic1}
-            alt="Rohan's Portrait"
-            className="rounded-full"
-            style={{
-              minWidth: "100px",
-              minHeight: "100px",
-              maxWidth: "300px",
-              maxHeight: "300px",
-            }}
-          />
-        </div>
+        {showAlert && (
+          <div className="music-alert-main fixed bottom-10 left-1/2 transform -translate-x-1/2 font-mono padding-1vh margin-1vh bg-primary text-fifth px-4 py-2 rounded-md" style={{ fontSize: '10px' }}>
+            <button className="music-alert" onClick={togglePlayPause}>
+              <i className="ri-play-line" />Pause Music
+            </button>
+          </div>
+        )}
       </div>
-      {showAlert && (
-        <div className="music-alert-main fixed bottom-10 left-1/2 transform -translate-x-1/2 font-mono padding-1vh margin-1vh bg-primary text-fifth px-4 py-2 rounded-md" style={{fontSize:'10px'}}>
-          <button className="music-alert" onClick={togglePlayPause}><i className="ri-play-line" />Pause Music</button>
-        </div>
-      )}
-    </div>
     </section>
   );
 }

@@ -3,8 +3,48 @@ import tuberculosis from '../components/logos/tuberculosis.png'
 import lstm from '../components/logos/lstm.png'
 import IntelliPDF from '../components/logos/intellipdf.png'
 import globe from '../components/logos/globe.png'
+import clockin from '../components/logos/clockin.png'
+import industry from '../components/logos/industry.png'
 
 export const projects = [
+  {
+    id: "630120134042e2d798b59dc4",
+    company: "Personal Project",
+    title: "Industry-Specific Layoff Tracker",
+    period: "2023",
+    technologies: [
+      "Python", "Flask", "MongoDB", "Faktory", "NLTK", "REST API",
+    ],
+    image:
+      industry,
+    link: "https://github.com/ron103/industry-specific-layoff-tracker",
+    description: (
+      <p>
+        Built an automated data pipeline to scrape and process over 208,000+ records from Reddit and 4chan using Python, Faktory
+workers, and MongoDB, enabling high-throughput concurrency and historical data integration for trend analysis and developed RESTful Flask APIs with real-time sentiment and toxicity analysis (98% accuracy) using NLTK, and delivered
+interactive visualizations through Matplotlib and Plotly to surface insights into layoff patterns and unemployment discussions.
+      </p>
+    ),
+  },
+  {
+    id: "630120134042e2d798b59dc4",
+    company: "Personal Project",
+    title: "Clockin - A Time Tracking Tool",
+    period: "2023",
+    technologies: [
+      "Swift", "SwiftUI", "WatchKit",
+    ],
+    image:
+    clockin,
+    link: "https://github.com/ron103/clockin",
+    description: (
+      <p>
+        Developed a cross-platform time tracking app for iOS and watchOS using SwiftUI, WatchKit, and MVVM, enabling users to clock
+        in/out, monitor break time, and view daily work summaries with earnings based on customizable hourly rates and time goals.
+      </p>
+    ),
+  },
+  
   {
     id: "630120134042e2d798b59dc4",
     company: "Personal Project",
@@ -119,151 +159,151 @@ circle, dynamic country coloring, and calculation of world travel coverage perce
       </p>
     ),
   },
-  {
-    _id: "630120134842e2d798b59dc6",
-    company: "Research Project",
-    title: "Krypton - Cryptocurrency Statistics Application",
-    period: "Aug 2022 - May 2023",
-    technologies: ["Android Development", "Java", "API"],
-    image:
-      "https://i.pinimg.com/564x/70/31/82/703182bc95523ea41290467c3612704b.jpg",
-    link: "",
-    description: (
-      <p>
-        Krypton is a Java based cryptocurrency related information website. It
-        tracks real time values of the coins and presents it to the users. It is
-        a data platform provider that pulls prices from the various exchanges
-        worldwide and presents it to the user. The user will be able to search
-        up the coins they're looking for and find out about their price, change
-        in price, charts, whitepaper, change in volume, market capitalization,
-        coin supply (total and circulating) and ROI of the coin.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dc7",
-    company: "Research Project",
-    title: "Pune House Price Prediction",
-    period: "Aug 2022 - May 2023",
-    technologies: [
-      "Machine Learning",
-      "Python",
-      "Pandas",
-      "Numpy",
-      "Scikit-learn",
-      "Flask",
-    ],
-    image:
-      "https://i.pinimg.com/564x/99/1c/80/991c8062932bd90ba4f08b04cb2e2b88.jpg",
-    link: "https://github.com/ron103/pune_hpp",
-    description: (
-      <p>
-        The Pune House Price Prediction project is a web-based application
-        designed to forecast residential property prices in Pune using machine
-        learning algorithms. It utilizes GridSearchCV for hyperparameter
-        optimization, followed by predictive modeling through Linear Regression,
-        Lasso Regression, and Decision Tree Regressor. The model achieves an
-        accuracy of 85.7%. Users can input parameters such as site location,
-        number of bedrooms and bathrooms, and square footage to receive price
-        predictions. The application's front end is developed with HTML, CSS,
-        and JavaScript, while Flask serves as the backend framework,
-        facilitating interaction between the user interface and the machine
-        learning model.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dc8",
-    company: "Research Project",
-    title: "Majesty.co - Food Ordering System",
-    period: "Aug 2022 - May 2023",
-    technologies: ["Django", "Flask", "SQL", "Tailwind CSS"],
-    image:
-      "https://i.pinimg.com/564x/13/f9/e3/13f9e37a703475481fd1633ffb44f817.jpg",
-    link: "",
-    description: (
-      <p>
-        Food Ordering System is to manage the details of the Food, Item
-        Category, Shopping Cart, Customer, Order. It manages all the information
-        about the Food, Delivery Address, Order, Food. The project is totally
-        built at the administrative end and thus only the administrator is
-        guaranteed the access. The purpose of the project is to build a website
-        to reduce manual work for managing the Food, Item Category, Delivery
-        Address, Shopping Cart. It tracks all the details about the Shopping
-        Cart, Customer, Order.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dc9",
-    company: "Research Project",
-    title: "Network Optimization & Analysis Suite",
-    period: "Aug 2022 - May 2023",
-    technologies: ["Rust", "C++", "SSL", "TCP/IP", "Prometheus", "Grafana"],
-    image:
-      "https://i.pinimg.com/736x/5e/4c/07/5e4c07de0c30d154cdc537e32efe60ad.jpg",
-    link: "",
-    description: (
-      <p>
-        Engineered a Rust-based proxy server and a C++ UDP Ping toolkit,
-        optimizing network performance with asynchronous IO and TCP/IP
-        enhancements, resulting in a 43% speed increase and a 31% boost in
-        diagnostic precision. Integrated SSL optimizations for secure data
-        handling. Leveraged Prometheus and Grafana for a 26% improvement in
-        downtime management through real-time monitoring, coupled with Docker
-        and Jenkins to halve deployment times and ensure environment
-        consistency.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dd3",
-    company: "Research Project",
-    title: "AI Vision Board Creator",
-    period: "Aug 2022 - May 2023",
-    technologies: [
-      "HTML5",
-      "Tailwind CSS",
-      "Javascript",
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "AWS",
-      "PIL",
-      "Python",
-      "Tensorflow",
-    ],
-    image:
-      "https://i.pinimg.com/564x/f5/68/9a/f5689ad45ddcb83bad100fb563252b1c.jpg",
-    link: "",
-    description: (
-      <p>
-        Developed an automatic vision board creator leveraging ChatGPT and
-        DALL-E, to generate personalized vision boards based on user input and
-        preferences, implemented in Python. Employed the Flask web framework to
-        build a lightweight and flexible backend for the web application and
-        HTML, CSS, and JavaScript for frontend development. Utilized TensorFlow
-        for model training, fine-tuning, and inference tasks, and PIL for image
-        preprocessing and manipulation. Leveraged AWS cloud infrastructure for
-        scalable and reliable hosting.
-      </p>
-    ),
-  },
-  {
-    _id: "630120134842e2d798b59dd2",
-    company: "Research Project",
-    title: "OMR Sheet scanner",
-    period: "Aug 2022 - May 2023",
-    technologies: ["Python", "OpenCV", "MongoDB"],
-    image:
-      "https://i.pinimg.com/736x/87/e6/0b/87e60b5889a506e16a0e84a90ae0a35f.jpg",
-    link: "https://github.com/ron103/OMRsheet_scanner",
-    description: (
-      <p>
-        Used OpenCV to scan OMR sheets and grade students correctly. The correct
-        answers were retreived from the database for specific OMR sheets using
-        MongoDB.
-      </p>
-    ),
-  },
+  // {
+  //   _id: "630120134842e2d798b59dc6",
+  //   company: "Research Project",
+  //   title: "Krypton - Cryptocurrency Statistics Application",
+  //   period: "Aug 2022 - May 2023",
+  //   technologies: ["Android Development", "Java", "API"],
+  //   image:
+  //     "https://i.pinimg.com/564x/70/31/82/703182bc95523ea41290467c3612704b.jpg",
+  //   link: "",
+  //   description: (
+  //     <p>
+  //       Krypton is a Java based cryptocurrency related information website. It
+  //       tracks real time values of the coins and presents it to the users. It is
+  //       a data platform provider that pulls prices from the various exchanges
+  //       worldwide and presents it to the user. The user will be able to search
+  //       up the coins they're looking for and find out about their price, change
+  //       in price, charts, whitepaper, change in volume, market capitalization,
+  //       coin supply (total and circulating) and ROI of the coin.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   _id: "630120134842e2d798b59dc7",
+  //   company: "Research Project",
+  //   title: "Pune House Price Prediction",
+  //   period: "Aug 2022 - May 2023",
+  //   technologies: [
+  //     "Machine Learning",
+  //     "Python",
+  //     "Pandas",
+  //     "Numpy",
+  //     "Scikit-learn",
+  //     "Flask",
+  //   ],
+  //   image:
+  //     "https://i.pinimg.com/564x/99/1c/80/991c8062932bd90ba4f08b04cb2e2b88.jpg",
+  //   link: "https://github.com/ron103/pune_hpp",
+  //   description: (
+  //     <p>
+  //       The Pune House Price Prediction project is a web-based application
+  //       designed to forecast residential property prices in Pune using machine
+  //       learning algorithms. It utilizes GridSearchCV for hyperparameter
+  //       optimization, followed by predictive modeling through Linear Regression,
+  //       Lasso Regression, and Decision Tree Regressor. The model achieves an
+  //       accuracy of 85.7%. Users can input parameters such as site location,
+  //       number of bedrooms and bathrooms, and square footage to receive price
+  //       predictions. The application's front end is developed with HTML, CSS,
+  //       and JavaScript, while Flask serves as the backend framework,
+  //       facilitating interaction between the user interface and the machine
+  //       learning model.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   _id: "630120134842e2d798b59dc8",
+  //   company: "Research Project",
+  //   title: "Majesty.co - Food Ordering System",
+  //   period: "Aug 2022 - May 2023",
+  //   technologies: ["Django", "Flask", "SQL", "Tailwind CSS"],
+  //   image:
+  //     "https://i.pinimg.com/564x/13/f9/e3/13f9e37a703475481fd1633ffb44f817.jpg",
+  //   link: "",
+  //   description: (
+  //     <p>
+  //       Food Ordering System is to manage the details of the Food, Item
+  //       Category, Shopping Cart, Customer, Order. It manages all the information
+  //       about the Food, Delivery Address, Order, Food. The project is totally
+  //       built at the administrative end and thus only the administrator is
+  //       guaranteed the access. The purpose of the project is to build a website
+  //       to reduce manual work for managing the Food, Item Category, Delivery
+  //       Address, Shopping Cart. It tracks all the details about the Shopping
+  //       Cart, Customer, Order.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   _id: "630120134842e2d798b59dc9",
+  //   company: "Research Project",
+  //   title: "Network Optimization & Analysis Suite",
+  //   period: "Aug 2022 - May 2023",
+  //   technologies: ["Rust", "C++", "SSL", "TCP/IP", "Prometheus", "Grafana"],
+  //   image:
+  //     "https://i.pinimg.com/736x/5e/4c/07/5e4c07de0c30d154cdc537e32efe60ad.jpg",
+  //   link: "",
+  //   description: (
+  //     <p>
+  //       Engineered a Rust-based proxy server and a C++ UDP Ping toolkit,
+  //       optimizing network performance with asynchronous IO and TCP/IP
+  //       enhancements, resulting in a 43% speed increase and a 31% boost in
+  //       diagnostic precision. Integrated SSL optimizations for secure data
+  //       handling. Leveraged Prometheus and Grafana for a 26% improvement in
+  //       downtime management through real-time monitoring, coupled with Docker
+  //       and Jenkins to halve deployment times and ensure environment
+  //       consistency.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   _id: "630120134842e2d798b59dd3",
+  //   company: "Research Project",
+  //   title: "AI Vision Board Creator",
+  //   period: "Aug 2022 - May 2023",
+  //   technologies: [
+  //     "HTML5",
+  //     "Tailwind CSS",
+  //     "Javascript",
+  //     "React.js",
+  //     "Node.js",
+  //     "Express.js",
+  //     "AWS",
+  //     "PIL",
+  //     "Python",
+  //     "Tensorflow",
+  //   ],
+  //   image:
+  //     "https://i.pinimg.com/564x/f5/68/9a/f5689ad45ddcb83bad100fb563252b1c.jpg",
+  //   link: "",
+  //   description: (
+  //     <p>
+  //       Developed an automatic vision board creator leveraging ChatGPT and
+  //       DALL-E, to generate personalized vision boards based on user input and
+  //       preferences, implemented in Python. Employed the Flask web framework to
+  //       build a lightweight and flexible backend for the web application and
+  //       HTML, CSS, and JavaScript for frontend development. Utilized TensorFlow
+  //       for model training, fine-tuning, and inference tasks, and PIL for image
+  //       preprocessing and manipulation. Leveraged AWS cloud infrastructure for
+  //       scalable and reliable hosting.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   _id: "630120134842e2d798b59dd2",
+  //   company: "Research Project",
+  //   title: "OMR Sheet scanner",
+  //   period: "Aug 2022 - May 2023",
+  //   technologies: ["Python", "OpenCV", "MongoDB"],
+  //   image:
+  //     "https://i.pinimg.com/736x/87/e6/0b/87e60b5889a506e16a0e84a90ae0a35f.jpg",
+  //   link: "https://github.com/ron103/OMRsheet_scanner",
+  //   description: (
+  //     <p>
+  //       Used OpenCV to scan OMR sheets and grade students correctly. The correct
+  //       answers were retreived from the database for specific OMR sheets using
+  //       MongoDB.
+  //     </p>
+  //   ),
+  // },
 ];

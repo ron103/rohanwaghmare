@@ -1,12 +1,41 @@
 import flow from '../components/logos/flow.jpeg'
 import btc from '../components/logos/btc.png'
+import mihin from '../components/logos/mihin.jpeg'
 
 export const work = [
   {
     id: "630120134042e2d798b59dc4",
+    company: "Michigan Health Information Network",
+    title: "Software Engineering Apprentice",
+    period: "Mar 2025 - Present",
+    location: "Lansing, MI",
+    technologies: [
+      "Python",
+      "AWS",
+      "PostgreSQL",
+      "Terraform",
+    ],
+    image:
+      mihin,
+    link: "https://careertools.binghamton.edu/organizations/tech-collective/",
+    description: (
+      <p>
+       <i className="ri-play-line"></i>Developing a secure, HIPAA-compliant, serverless Inbox Messaging Platform using AWS Lambda (Python), API Gateway
+       (Cognito Authorizers), S3, and RDS (PostgreSQL) for healthcare communications and user settings.
+
+<br></br>
+<i className="ri-play-line"></i>Implementing backend logic in Python for efficient message filtering and ingestion workflows leveraging SNS, SQS, and
+DynamoDB.
+<br></br>
+<i className="ri-play-line"></i>Collaborating across engineering teams to ensure robust and compliant data pipelines within distributed AWS environments.
+      </p>
+    ),
+  },
+  {
+    id: "630120134042e2d798b59dc4",
     company: "Binghamton Tech Collective",
     title: "Software Engineer",
-    period: "Aug 2024 - Present",
+    period: "Aug 2024 - Mar 2025",
     location: "Binghamton, NY",
     technologies: [
       "React.js",
