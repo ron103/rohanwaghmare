@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "../../components/logos/RW2025_resume.pdf";
+import ResumePDF from "../../components/logos/RohanWaghmare-resume-J.pdf";
 
 function Intro() {
   const handleOpenResume = () => {
