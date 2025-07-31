@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../components/SectionTitle";
-import pic1 from "../../components/logos/dp-pf-illus.png";
+import pic1 from "../../components/logos/chibirohan.png";
 import mozart from '../../components/logos/mozart.mp3';
 
 function About() {
