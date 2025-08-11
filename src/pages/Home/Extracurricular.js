@@ -107,8 +107,8 @@ thumbnails.forEach((thumbnail,index)=>{
           </div>
         </div>
         <div className="arrows">
-          <button id="prev"><i class="ri-arrow-left-s-fill"></i></button>
-          <button id="next"><i class="ri-arrow-right-s-fill"></i></button>
+          <button id="prev"><i className="ri-arrow-left-s-fill"></i></button>
+          <button id="next"><i className="ri-arrow-right-s-fill"></i></button>
         </div>
         <div className="thumbnail">
           <div className="item active">

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logoImg from './logos/rolo.png';
 import {HashLink as Link} from 'react-router-hash-link';
 
 
@@ -36,7 +35,7 @@ function Header() {
     <div className={`header-container sm:py-5 ${headerHidden ? 'hidden' : ''}`}>
       <div className='header-logo p-5 bg-primary flex justify-between px-5 py-1 '>
         <Link to='#intro' smooth>
-          <img src={logoImg} alt='Logo' style={{ width: '80px', height: '80px' }} className='sm:hidden'/>
+          <img src={'/rolo.png'} alt='Logo' style={{ width: '80px', height: '80px' }} className='sm:hidden'/>
           </Link>
 
         <div className="header-right flex items-center space-x-5">

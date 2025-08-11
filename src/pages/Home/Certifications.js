@@ -16,28 +16,28 @@ function Certifications() {
         <div className="about-text-2 flex flex-col gap-5" id="outer-div">
         <h1 className="section-title text-xl text-fourth ">Certifications</h1>
         <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.credly.com/badges/5151c673-6042-4ead-bd9d-5ff8c2eb05fb/public_url">
         AWS Certified Cloud Practioner
         <p className="about-text-3">AWS, Sep 2024</p>
         </a>
           </p>
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.udemy.com/certificate/UC-ad27cfcc-e9cc-4792-abc0-069fca1b4ba6/">
         The Complete Data Structures and Algorithms Course in Python
         <p className="about-text-3">Udemy, Aug 2022</p>
         </a>
           </p>
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://learn.nvidia.com/certificates?id=a7931b4a16fe4a24a2a21640266366aa">
         Fundamentals of Accelerated Computing with CUDA C/C++
         <p className="about-text-3">Nvidia, Jul 2022</p>
         </a>
           </p>
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.coursera.org/account/accomplishments/certificate/JU4WVJRWG88S">
         Capstone: Retrieving, Processing, and Visualizing
 Data with Python
@@ -45,7 +45,7 @@ Data with Python
         </a>
           </p>
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.coursera.org/account/accomplishments/certificate/DZ8LJNT6AJTH">
         Using Databases with Python
         <p className="about-text-3">University of Michigan, Jul 2022</p>
@@ -53,14 +53,14 @@ Data with Python
           </p>
           
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.coursera.org/account/accomplishments/certificate/B9TZ8LSPNCM5">
           Using Python to Access Web Data
           <p className="about-text-3">University of Michigan, Jul 2022</p>
         </a>
           </p>
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.coursera.org/account/accomplishments/verify/MXAKFM8SWMK3">
         Python Data Structures
         <p className="about-text-3">University of Michigan, Apr 2022</p>
@@ -68,7 +68,7 @@ Data with Python
           </p>
 
           <p className="text-fifth">
-            <i class="ri-play-line"></i>
+            <i className="ri-play-line"></i>
             <a href="https://www.coursera.org/account/accomplishments/verify/9SQMCGKPDQQH">
 Programming for Everybody (Getting Started with Python)
 <p className="about-text-3">University of Michigan, March 2022</p>

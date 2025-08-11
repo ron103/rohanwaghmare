@@ -46,9 +46,7 @@ function Projects() {
         <div className="flex flex-col gap-5 justify-center">
             <h1 className="text-fourth text-xl">{projects[selectedItemindex].title}
             <a href={projects[selectedItemindex].link}>
-            <i
-              class="ri-share-circle-line absolute"
-            ></i>
+            <i className="ri-share-circle-line absolute"></i>
             </a>
             </h1>
             <div className="cloud-container">

@@ -1,6 +1,5 @@
 import flow from '../components/logos/flow.jpeg'
 import btc from '../components/logos/btc.png'
-import mihin from '../components/logos/mihin.jpeg'
 
 export const work = [
 //   {
